@@ -1217,9 +1217,9 @@
 						<div class="col-wrapper col-md-auto">
 							<div class="header-logo">
 								<div class="header-logo-inner">
-									<a itemprop="url" href="index.html">
+									<a itemprop="url" href="{{ ('/') }}">
 										<img itemprop="image" src="wp-content/logo.png"
-											alt="Rich Angel Salon &#8211; Full Service Salon" />
+											alt="Vishakha's Salon &#8211; Full Service Salon" />
 									</a>
 								</div>
 							</div>
@@ -1233,22 +1233,22 @@
 										<ul class="sub-menu">
 											<li id="menu-item-4682"
 												class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4682">
-												<a href="index.html#nails" aria-current="page">Nails</a></li>
+												<a href="{{ url('/') }}#nails" aria-current="page">Nails</a></li>
 											<li id="menu-item-4683"
 												class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4683">
-												<a href="index.html#russian" aria-current="page">Russian Style</a></li>
+												<a href="{{ url('/') }}#russian" aria-current="page">Russian Style</a></li>
 											<li id="menu-item-4684"
 												class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4684">
-												<a href="index.html#pedicure" aria-current="page">Pedicures</a></li>
+												<a href="{{ url('/') }}#pedicure" aria-current="page">Pedicures</a></li>
 											<li id="menu-item-4686"
 												class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4686">
-												<a href="index.html#hair" aria-current="page">Hair</a></li>
+												<a href="{{ url('/') }}#hair" aria-current="page">Hair</a></li>
 											<li id="menu-item-4687"
 												class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4687">
-												<a href="index.html#lashes" aria-current="page">Lashes</a></li>
+												<a href="{{ url('/') }}#lashes" aria-current="page">Lashes</a></li>
 											<li id="menu-item-4688"
 												class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4688">
-												<a href="index.html#brows" aria-current="page">Brows</a></li>
+												<a href="{{ url('/') }}#brows" aria-current="page">Brows</a></li>
 										</ul>
 									</li>
 									<li id="menu-item-4701"
@@ -1256,13 +1256,13 @@
 										<a href="#prices">Prices</a></li>
 									<li id="menu-item-4689"
 										class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4689">
-										<a href="index.html#contact" aria-current="page">Contact</a></li>
+										<a href="{{ url('/') }}#contact" aria-current="page">Contact</a></li>
 									<li id="menu-item-4690"
 										class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4690">
-										<a href="index.html#reviews" aria-current="page">Reviews</a></li>
+										<a href="{{ url('/') }}#reviews" aria-current="page">Reviews</a></li>
 									<li id="menu-item-4691"
 										class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4691">
-										<a href="index.html#about" aria-current="page">About Us</a></li>
+										<a href="{{ url('/') }}#about" aria-current="page">About Us</a></li>
 								</ul>
 							</div>
 						</div>
@@ -1334,9 +1334,9 @@
 							<div class="col-6 text-left">
 								<div class="mobile-header-logo">
 									<div class="mobile-header-logo-inner">
-										<a itemprop="url" href="index.html">
-											<img itemprop="image" src="wp-content/uploads/2024/10/logo-9.webp"
-												alt="Rich Angel Salon &#8211; Full Service Salon" />
+										<a itemprop="url" href="{{ url('/') }}">
+											<img itemprop="image" src="wp-content/logo.png"
+												alt="Vishakha's Salon &#8211; Full Service Salon" />
 										</a>
 									</div>
 								</div>
@@ -1366,23 +1366,23 @@
 											<ul class="sub-menu">
 												<li
 													class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4682">
-													<a href="index.html#nails" aria-current="page">Nails</a></li>
+													<a href="{{ url('/') }}#nails" aria-current="page">Nails</a></li>
 												<li
 													class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4683">
-													<a href="index.html#russian" aria-current="page">Russian Style</a>
+													<a href="{{ url('/') }}#russian" aria-current="page">Russian Style</a>
 												</li>
 												<li
 													class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4684">
-													<a href="index.html#pedicure" aria-current="page">Pedicures</a></li>
+													<a href="{{ url('/') }}#pedicure" aria-current="page">Pedicures</a></li>
 												<li
 													class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4686">
-													<a href="index.html#hair" aria-current="page">Hair</a></li>
+													<a href="{{ url('/') }}#hair" aria-current="page">Hair</a></li>
 												<li
 													class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4687">
-													<a href="index.html#lashes" aria-current="page">Lashes</a></li>
+													<a href="{{ url('/') }}#lashes" aria-current="page">Lashes</a></li>
 												<li
 													class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4688">
-													<a href="index.html#brows" aria-current="page">Brows</a></li>
+													<a href="{{ url('/') }}#brows" aria-current="page">Brows</a></li>
 											</ul>
 										</li>
 										<li
@@ -1390,13 +1390,13 @@
 											<a href="#prices">Prices</a></li>
 										<li
 											class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4689">
-											<a href="index.html#contact" aria-current="page">Contact</a></li>
+											<a href="{{ url('/') }}#contact" aria-current="page">Contact</a></li>
 										<li
 											class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4690">
-											<a href="index.html#reviews" aria-current="page">Reviews</a></li>
+											<a href="{{ url('/') }}#reviews" aria-current="page">Reviews</a></li>
 										<li
 											class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4691">
-											<a href="index.html#about" aria-current="page">About Us</a></li>
+											<a href="{{ url('/') }}#about" aria-current="page">About Us</a></li>
 									</ul>
 								</div>
 								<div class="col-12 mobile-header-custom-text after-nav">
