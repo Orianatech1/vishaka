@@ -61,7 +61,7 @@
 									<div class="copyright-info social">
 										<span>
 											<a itemprop="url"
-												href="https://www.instagram.com/rich_angel_losangeles?igsh=OGQ5ZDc2ODk2ZA%3D%3D&amp;utm_source=qr"
+												href="https://www.instagram.com/"
 												target=&quot;_blank&quot; title="Follow us on Instagram">
 												<i class="ri-instagram-line"></i>
 											</a>
