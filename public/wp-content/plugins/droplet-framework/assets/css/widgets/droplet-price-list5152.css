@@ -1,0 +1,102 @@
+/* =========================================================== */
+/* 00. Droplet Price List
+/* =========================================================== */
+.elementor-widget-droplet_price_list .droplet-price-list-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.elementor-widget-droplet_price_list.align-items-start .droplet-price-list-wrapper {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.elementor-widget-droplet_price_list.align-items-center .droplet-price-list-wrapper {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.elementor-widget-droplet_price_list.align-items-end .droplet-price-list-wrapper {
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.elementor-widget-droplet_price_list .droplet-price-list-image {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: auto;
+  max-width: none;
+}
+
+.elementor-widget-droplet_price_list .droplet-price-list {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%
+}
+
+.elementor-widget-droplet_price_list .droplet-price-list-info {
+  display: flex;
+  align-items: baseline;
+}
+
+.elementor-widget-droplet_price_list .droplet-price-list-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.elementor-widget-droplet_price_list .droplet-price-list-separator {
+  position: relative;
+  color: rgba(0,0,0,.3);
+  margin-left: 15px;
+  margin-right: 15px;
+  border-bottom-style: dotted;
+  border-bottom-width: 1px;
+  height: 5px;
+  flex-grow: 1;
+}
+
+.elementor-widget-droplet_price_list .droplet-price-list-pricex {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+  align-items: baseline;
+}
+
+.elementor-widget-droplet_price_list .droplet-price-list-desc {
+  position: relative;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin: 15px 60px 0 0;
+}
+
+@media (max-width: 767px) {
+  .elementor-widget-droplet_price_list .droplet-price-list-pricex {
+    margin-top: 15px;
+  }
+}

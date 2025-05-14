@@ -1,0 +1,85 @@
+/* =========================================================== */
+/* 00. Droplet Image Gallery
+/* =========================================================== */
+.droplet-image-gallery {
+  position: relative;
+}
+
+.droplet-image-gallery .droplet-gallery-item {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+
+.droplet-image-gallery .droplet-gallery-item .droplet-gallery-thumbnail {
+  position: relative;
+  overflow: hidden;
+}
+
+.droplet-image-gallery .droplet-gallery-item .droplet-gallery-thumbnail img {
+  width: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+  transition: transform 2.5s cubic-bezier(.17, .05, .13, .85);
+}
+
+/*Overlay*/
+.droplet-image-gallery .droplet-overlay {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  padding: 30px 30px;
+  background: rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+.droplet-image-gallery .droplet-overlay > :last-child {
+  margin-bottom: 0;
+}
+
+.droplet-image-gallery .droplet-gallery-item .droplet-image-gallery-content-inner {
+  transform: translateZ(20px);
+}
+
+.droplet-image-gallery .droplet-gallery-overlay-icon {
+  position: relative;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 12px;
+  transition: all .25s ease-in-out;
+}
+
+.droplet-image-gallery .droplet-gallery-overlay-icon svg {
+  width: 65px;
+  height: auto;
+  fill: #fff;
+}
+
+.droplet-image-gallery .droplet-image-gallery-inner {
+  position: relative;
+  overflow: hidden;
+}
+
+.droplet-image-gallery .droplet-gallery-item .droplet-image-gallery-inner {
+  position: relative;
+}
+
+.droplet-image-gallery .droplet-gallery-item .droplet-gallery-overlay-caption {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+@media (max-width:767px) {
+  .elementor-widget-droplet_image_gallery .elementor-widget-container {
+    overflow: hidden;
+  }
+}
