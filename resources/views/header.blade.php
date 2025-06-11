@@ -972,6 +972,7 @@
 			}
 		}
 	</style>
+
 	<meta name="generator"
 		content="Powered by Slider Revolution 6.6.20 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
 	<link rel="icon" href="wp-content/uploads/2024/10/cropped-favicon-32x32.webp" sizes="32x32" />
@@ -1176,6 +1177,14 @@
 			background-color: #000000;
 		}
 	</style> 
+	 <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Jost:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Revolution Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('revslider/css/rs6.css') }}"/>
+
+    <!-- Your Custom CSS -->
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
 </head>
 <body
@@ -1188,8 +1197,8 @@
 				<div class="row align-items-center">
 					<div class="col-lg-4 col-md-4 col-sm-12 col-12 text-left-auto">
 						<div class="topbar-info custom">
-							<a href="https://www.google.com/maps/dir//2503+Main+St,+Santa+Monica,+CA+90405/@34.0032625,-118.5669812,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80c2bb0024edd917:0xaf6d2c6008efbcd6!2m2!1d-118.48458!2d34.00329?entry=ttu&amp;g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D"
-								target="new">Dhayri Main Road, Dhayri Pune-411001</a>
+							<a href="https://maps.app.goo.gl/kbFXu4HntnGCHEzo8"
+								target="new">Dnyandeep Plaza, Dhayari Phata Rd,Pune-411001</a>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-4 col-sm-12 col-12 text-center-auto">
@@ -1198,7 +1207,7 @@
 					</div>
 					<div class="col-lg-4 col-md-4 col-sm-12 col-12 text-right-auto">
 						<div class="topbar-info custom">
-							<a style="font-size: 17px" href="tel:1234567890">Call +91 1234567890</a> / <a
+							<a style="font-size: 17px" href="tel:7+91798225687">Call +91 77982 25687</a> / <a
 								style="font-size:17px" href=""
 								target="new">Book Online</a>
 						</div>
@@ -1233,22 +1242,8 @@
 										<ul class="sub-menu">
 											<li id="menu-item-4682"
 												class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4682">
-												<a href="{{ url('/') }}#nails" aria-current="page">Nails</a></li>
-											<li id="menu-item-4683"
-												class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4683">
-												<a href="{{ url('/') }}#russian" aria-current="page">Russian Style</a></li>
-											<li id="menu-item-4684"
-												class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4684">
-												<a href="{{ url('/') }}#pedicure" aria-current="page">Pedicures</a></li>
-											<li id="menu-item-4686"
-												class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4686">
-												<a href="{{ url('/') }}#hair" aria-current="page">Hair</a></li>
-											<li id="menu-item-4687"
-												class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4687">
-												<a href="{{ url('/') }}#lashes" aria-current="page">Lashes</a></li>
-											<li id="menu-item-4688"
-												class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4688">
-												<a href="{{ url('/') }}#brows" aria-current="page">Brows</a></li>
+												<a href="{{ url('/') }}#nails" aria-current="page">Photos</a></li>
+											
 										</ul>
 									</li>
 									<li id="menu-item-4701"
@@ -1257,9 +1252,7 @@
 									<li id="menu-item-4689"
 										class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4689">
 										<a href="{{ url('/') }}#contact" aria-current="page">Contact</a></li>
-									<li id="menu-item-4690"
-										class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4690">
-										<a href="{{ url('/') }}#reviews" aria-current="page">Reviews</a></li>
+									
 									<li id="menu-item-4691"
 										class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4691">
 										<a href="{{ url('/') }}#about" aria-current="page">About Us</a></li>
@@ -1300,7 +1293,7 @@
 												<p class="themecolor mtb-0">Call Now for Appointment</p>
 												<h3 class="themecolor mtb-0"><a class="themecolor mtb-0"
 														style="font-size:22px; font-weight:600;"
-														href="tel:310-493-9251">(+91) 1234567890</a></h3>
+														href="tel:+917798225687">(+91) 77982 25687</a></h3>
 												<div style="margin-top:20px"></div>
 												<p class="themecolor mtb-0">Book Appointment Online</p>
 												<h3 class="themecolor mtb-0"><a class="themecolor mtb-0"
@@ -1308,10 +1301,11 @@
 														href="">Book Online
 														Now</a></h3>
 												<div style="margin-top:20px"></div>
-												<p><a style="font-size:18px; color:#4C1C0A;" target="new"
-														href="https://www.google.com/maps/dir//2503+Main+St,+Santa+Monica,+CA+90405/@34.0032625,-118.5669812,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80c2bb0024edd917
-														:0xaf6d2c6008efbcd6!2m2!1d-118.48458!2d34.00329?entry=ttu&amp;g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D">
-														Dhayri,<br>Dhayri, Pune-411001</a></p>
+												<p><a style="font-size:18px; color:#460543;" target="new"
+														href="https://maps.app.goo.gl/8tBqHy4tsPTNLsJr9">
+														2nd Floor, Dnyandeep Plaza,<br> Dhayari Phata Rd, Garmal, Dhayari, 
+														<br>
+														Pune, Maharashtra 411041</a></p>
 											</div>
 											<div id="block-41" class="widget widget_block">
 												<h4>HOURS</h4>
@@ -1366,23 +1360,8 @@
 											<ul class="sub-menu">
 												<li
 													class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4682">
-													<a href="{{ url('/') }}#nails" aria-current="page">Nails</a></li>
-												<li
-													class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4683">
-													<a href="{{ url('/') }}#russian" aria-current="page">Russian Style</a>
-												</li>
-												<li
-													class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4684">
-													<a href="{{ url('/') }}#pedicure" aria-current="page">Pedicures</a></li>
-												<li
-													class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4686">
-													<a href="{{ url('/') }}#hair" aria-current="page">Hair</a></li>
-												<li
-													class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4687">
-													<a href="{{ url('/') }}#lashes" aria-current="page">Lashes</a></li>
-												<li
-													class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4688">
-													<a href="{{ url('/') }}#brows" aria-current="page">Brows</a></li>
+													<a href="{{ url('/') }}#nails" aria-current="page">Photos</a></li>
+												
 											</ul>
 										</li>
 										<li
@@ -1391,9 +1370,7 @@
 										<li
 											class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4689">
 											<a href="{{ url('/') }}#contact" aria-current="page">Contact</a></li>
-										<li
-											class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4690">
-											<a href="{{ url('/') }}#reviews" aria-current="page">Reviews</a></li>
+										
 										<li
 											class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4691">
 											<a href="{{ url('/') }}#about" aria-current="page">About Us</a></li>

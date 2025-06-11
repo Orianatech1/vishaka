@@ -14,7 +14,7 @@
 											<div class="themecolor" style="margin-bottom:10px; font-size:18px;">Schedule
 												Appointment</div>
 											<div style="margin-bottom:10px;"><a style="font-size:22px; color:#861C74;"
-													href="tel:310-493-9251">(+91) 1234567890</a></div>
+													href="tel:07798225687">(+91) 07798225687</a></div>
 											<a style="font-size:22px; color:#861C74;"
 												href="" target="new">Book
 												Online Now</a>
@@ -155,7 +155,7 @@
 
 		.horizontal-bars .tp-bullet.rs-touchhover,
 		.horizontal-bars .tp-bullet.selected {
-			background: #4C1C0A
+			background: #460543
 		}
 
 		.horizontal-bars .tp-bullet-image {}
